@@ -1,0 +1,124 @@
+<html>
+<style>
+h1
+{
+    color:blue;
+    font-size: 160%;
+    text-align: center;
+}
+
+div
+{ 
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.border1
+{
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding: 5px;
+}
+
+.age
+{
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding: 5px;
+}
+.age1
+{
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding: 5px;
+    width: 65px;
+    height: 34px;
+}
+
+address
+{
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding: 5px;
+}
+
+picture
+{
+    border-style: none;
+}
+textarea
+{
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+</style>
+<body>
+
+<h1>註冊</h1>
+<form>
+
+<div>
+    <input type="text" class="border1" placeholder="姓名"/><br>
+    <input type="text" class="border1" placeholder="帳號"/><br>
+    <input type="email" class="border1" placeholder="Email"/><br>
+    <input type="password" class="border1" placeholder="密碼"/>
+</div>
+
+<div>
+    <input type="date" class="age" placeholder="生日"/>
+    <input type="number" class="age1" placeholder="年齡">
+</div>
+
+<div>
+    <select class="adress">
+        <option>請選擇居住鄉鎮</option>
+        <option>金城鎮</option>
+        <option>金湖鎮</option>
+        <option>金沙鎮</option>
+        <option>金寧鄉</option>
+    </select>
+    <input type="text" class="adress" placeholder="輸入完整地址">
+</div>
+
+<div>
+    <label>性別：</label>
+    <input type="radio" name="gender" value="男"/><label>男</label>
+    <input type="radio" name="gender" value="女"/><label>女</label>
+</div>
+
+<div>
+    <label>擅長科目：</label>
+    <input type="checkbox" name="subject" value="國文"/><label>國文</label>
+    <input type="checkbox" name="subject" value="英文"/><label>英文</label>
+    <input type="checkbox" name="subject" value="數學"/><label>數學</label>
+    <input type="checkbox" name="subject" value="社會"/><label>社會</label>
+    <input type="checkbox" name="subject" value="自然"/><label>自然</label>
+</div>
+
+<div class="picture">
+    <label>大頭貼上傳：</label>
+    <input type="file" class="picture">
+</div>
+<div>
+    <textarea name="notes" placeholder="簡單自我介紹"></textarea>
+</div>
+
+<div>
+    <button type="submit">確認</button>
+</div>
+
+</form>
+
+</body>
+</html>

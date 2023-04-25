@@ -22,13 +22,7 @@ ID选择器：通过HTML元素的id属性值来选择元素，例如#id-name表�
 属性选择器：通过HTML元素的属性值来选择元素，例如[attribute=value]表示选择具有指定属性值的元素。
 CSS屬性用於定義HTML元素的樣式，常見的CSS屬性包括：
 
-color：文字顏色
-background-color：背景顏色
-font-size：字體大小
-font-family：字體族譜
-margin：外邊距
-padding：內邊距
-border：邊框
+color：文字顏色、background-color：背景顏色、font-size：字體大小、font-family：字體族譜、margin：外邊距、padding：內邊距、border：邊框
 
 ## CSS樣式表
 CSS樣式表是一個獨立的文檔，其中包含了CSS樣式規則的集合，可以用來對HTML文檔進行樣式設置。CSS樣式表可以分為三種類型：內聯樣式表、內部樣式表和外部樣式表。

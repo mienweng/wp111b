@@ -1,20 +1,19 @@
-h1 {
+.main>h1 {
     text-align: center;
-    color: #336699;
+    color: blueviolet;
+    font-size: 200%;
 }
 
-body {
+.main>p {
     margin: 20px 10%;
+    font-size: 100%;
 }
 
-pre {
-    background-color: #eeeeee;
-    border: 1px dotted #888888;
-    padding: 20px;
-    border-radius: 20px;
+.main>a {
+    font-size: 100%;
 }
 
-img {
+.main>img {
     display: block;
     margin: auto;
 }

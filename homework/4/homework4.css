@@ -14,6 +14,8 @@ p {
     background-color: #fcc5e9;
     padding: 20px;
     border-radius: 20px;
+    display: inline-block;
+
 }
 
 

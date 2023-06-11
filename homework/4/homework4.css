@@ -1,3 +1,7 @@
+.main {
+    background-color: grey;
+}
+
 .main>h1 {
     text-align: center;
     color: blueviolet;

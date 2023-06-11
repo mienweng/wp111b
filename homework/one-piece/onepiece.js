@@ -51,9 +51,13 @@ function generateCharacterCards() {
         const card = document.createElement('div');
         card.classList.add('character-card');
 
+        const imageLink = document.createElement('a'); // 使用 <a> 元素包裹圖片
+        imageLink.href = character.link; // 設置超連結的目標網址
+
         const image = document.createElement('img');
         image.src = character.image;
-        card.appendChild(image);
+        imageLink.appendChild(image); // 將圖片添加到超連結元素中
+        card.appendChild(imageLink); // 將超連結元素添加到卡片中
 
         const name = document.createElement('h3');
         name.textContent = character.name;

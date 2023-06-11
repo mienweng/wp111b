@@ -1,0 +1,53 @@
+// 假設以下是角色資料，可以根據你的需求進行調整
+const characters = [
+    {
+        name: '蒙其·D·魯夫',
+        image: 'images/luffy.jpg',
+
+    },
+    {
+        name: '羅羅亞·索隆',
+        image: 'images/zoro.jpg',
+
+    },
+    {
+        name: '娜美',
+        image: 'images/nami.jpg',
+
+    },
+    {
+        name: '騙人布',
+        image: 'images/usopp.jpg',
+
+    },
+
+
+    // 其他角色資料...
+];
+
+// 生成角色卡片
+function generateCharacterCards() {
+    const characterList = document.getElementById('character-list');
+
+    characters.forEach(character => {
+        const card = document.createElement('div');
+        card.classList.add('character-card');
+
+        const image = document.createElement('img');
+        image.src = character.image;
+        card.appendChild(image);
+
+        const name = document.createElement('h3');
+        name.textContent = character.name;
+        card.appendChild(name);
+
+        const description = document.createElement('p');
+        description.textContent = character.description;
+        card.appendChild(description);
+
+        characterList.appendChild(card);
+    });
+}
+
+// 網頁載入完成後生成角色卡片
+window.addEventListener('DOMContentLoaded', generateCharacterCards);

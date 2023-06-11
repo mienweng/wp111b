@@ -3,6 +3,7 @@ const characters = [
     {
         name: 'Luffy',
         image: 'images/luffy.jpg',
+        link: 'https://zh.wikipedia.org/zh-tw/%E8%92%99%E5%85%B6%C2%B7D%C2%B7%E9%AD%AF%E5%A4%AB'
     },
     {
         name: 'Zoro',

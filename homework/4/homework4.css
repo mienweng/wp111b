@@ -7,7 +7,7 @@
 .main>p {
     margin: 20px 10%;
     font-size: 100%;
-    background-color: aqua;
+    background-color: #8df7fb;
     border-radius: 20px;
     padding: 20px;
 
@@ -16,6 +16,10 @@
 .main>a {
     font-size: 100%;
     margin: 20px 10%;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 20px;
+
 }
 
 .main>img {

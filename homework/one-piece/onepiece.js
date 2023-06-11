@@ -1,24 +1,20 @@
 // 假設以下是角色資料，可以根據你的需求進行調整
 const characters = [
     {
-        name: '蒙其·D·魯夫',
+        name: 'Monkey·D·Luffy',
         image: 'images/luffy.jpg',
-
     },
     {
-        name: '羅羅亞·索隆',
+        name: 'Rorona Zoro',
         image: 'images/zoro.jpg',
-
     },
     {
-        name: '娜美',
+        name: 'Nami',
         image: 'images/nami.jpg',
-
     },
     {
-        name: '騙人布',
+        name: 'Usopp',
         image: 'images/usopp.jpg',
-
     },
 
 

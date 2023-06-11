@@ -1,31 +1,33 @@
-.main {
-    background-color: #e4e9e9;
-}
-
-.main>h1 {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
     text-align: center;
-    color: blueviolet;
-    font-size: 200%;
 }
 
-.main>p {
-    margin: 20px 10%;
-    font-size: 120%;
-    background-color: #fcc5e9;
-    border-radius: 20px;
-    padding: 20px;
-
+h1 {
+    color: #333;
 }
 
-.main>a {
-    font-size: 100%;
-    margin: 20px 10%;
-    border-radius: 20px;
-    padding: 20px;
-
+p {
+    color: #666;
 }
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
 
 .main>img {
     display: block;
     margin: auto;
+    position: fixed;
 }

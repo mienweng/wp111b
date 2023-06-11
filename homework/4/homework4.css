@@ -11,7 +11,11 @@ h1 {
 }
 
 p {
-    color: #666;
+    margin: 20px 10%;
+    font-size: 120%;
+    background-color: #fcc5e9;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 a {

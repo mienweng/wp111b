@@ -1,5 +1,5 @@
 .main {
-    background-color: #cccfcf;
+    background-color: #e4e9e9;
 }
 
 .main>h1 {
@@ -11,7 +11,7 @@
 .main>p {
     margin: 20px 10%;
     font-size: 120%;
-    background-color: #8df7fb;
+    background-color: #fcc5e9;
     border-radius: 20px;
     padding: 20px;
 

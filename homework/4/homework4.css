@@ -28,4 +28,5 @@
 .main>img {
     display: block;
     margin: auto;
+    position: absolute;
 }
